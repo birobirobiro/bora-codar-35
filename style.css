@@ -16,9 +16,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   height: 100%;
   gap: 76px;
+
+  width: fit-content;
+  margin: auto
 }
 
 .wrapper {
@@ -302,4 +304,8 @@ button {
   width: 24px;
   height: 24px;
   position: absolute;
+  top: 16px;
+  right: 16px;
+
+  cursor: pointer;
 }
